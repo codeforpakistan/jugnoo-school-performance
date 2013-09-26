@@ -1,0 +1,73 @@
+<!DOCTYPE html>  
+<html>  
+  <head>  
+    <title>"School Name" - Project Jugnoo, Sind Education Board</title>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <!-- Bootstrap -->  
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+    
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+      
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table, 
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+      // Create the data table.
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Absenteeism');
+      data.addColumn('number', 'Absents');
+      data.addRows([
+        ['Absent', 2],
+        ['Present', 8]
+      ]);
+
+      // Set chart options
+      var options = {'title':'Average Weekly Attendance',
+                     'width':400,
+                     'height':300};
+
+      // Instantiate and draw our chart, passing in some options.
+      var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+    </script>  
+  </head>  
+  <body>  
+    <h1><center>"School Name" Profile Page</center></h1>  
+    <script src="http://code.jquery.com/jquery.js"></script>  
+    <script src="js/bootstrap.min.js"></script>
+    <div style="float:right; width:300px; padding-right:15px; text-align:right">
+      <div style="float:right; height: 250px">
+        <h3>School Picture<h3>
+      </div>
+      <div style="float:right; height: 250px">
+        <h3>Google Map</h3>
+      </div>
+    </div>    
+    <div style="width:480px; padding-left:15px">
+      <h3>School Data</h3>
+      <table>
+        <tr><td>Name:</td></tr>
+        <tr><td>District:</td></tr>
+        <tr><td>Address:</td></tr>
+        <tr><td>Phone:</td></tr>
+        <tr><td>Email:</td></tr>
+        <tr><td>Staff</td></tr>
+        <tr><td>Headmaster:</td></tr>
+        <tr><td>Staff Strength:</td></tr>
+        <tr><td>Student Strength:</td></tr>
+        <tr><td>Boys:</td></tr>
+        <tr><td>Girls:</td></tr>
+      </table>
+    </div>
+    <div id="chart_div" style="width:400; height:300"></div>
+  </body>  
+</html>
