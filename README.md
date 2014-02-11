@@ -1,4 +1,6 @@
-jugnoo-school-performance
+Jugnoo
 =========================
 
-Analyzing and visualizing the performance of govt schools
+Project Name: jugnoo-school-performance
+
+Analyzing and visualizing school performance data from govt schools in Pakistan
