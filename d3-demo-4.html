@@ -60,7 +60,7 @@
     .append("g")
     .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
-    d3.csv("sample-data.csv", function(data) {
+    d3.csv("data/sample-data.csv", function(data) {
 
   // Parse numbers, and sort by value.
   data.forEach(function(d) { d.value = +d.value; });

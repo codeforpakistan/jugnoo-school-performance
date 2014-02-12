@@ -75,7 +75,7 @@ var title = svg.append("text")
 .attr("dy", ".71em")
 .text(2000);
 
-d3.csv("population.csv", function(data) {
+d3.csv("data/population.csv", function(data) {
 
   // Convert strings to numbers.
   data.forEach(function(d) {
