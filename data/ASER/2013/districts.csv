@@ -1,0 +1,151 @@
+146,001,Lahore,2
+147,002,Chiniot,2
+148,003,Faisalabad,2
+149,004,Jhang,2
+150,005,Kasur,2
+151,006,Khanewal,2
+152,007,Mianwali,2
+153,008,Multan,2
+154,009,Nankana Sahib,2
+155,010,Rahim Yar Khan,2
+156,011,Rawalpindi,2
+157,012,Sargodha,2
+158,013,Sheikhupura,2
+159,034,Attock,2
+160,035,Bahawalnager,2
+161,036,Bahawalpur,2
+162,037,Chakwal,2
+163,038,Gujranwala,2
+164,039,Jehlum,2
+165,040,Khushab,2
+166,041,Lodhran,2
+167,042,Mandi Bahuddin,2
+168,043,Muzaffar Garh,2
+169,044,Rajanpur,2
+170,045,Sahiwal,2
+171,046,T.T.Singh,2
+172,047,Vehari,2
+173,078,Hafizabad,2
+174,089,Bhakkar,2
+175,090,Dera Ghazi Khan,2
+176,091,Gujrat,2
+177,092,Layyah,2
+178,093,Narowal,2
+179,094,Okara,2
+180,095,Pakpattan,2
+181,096,Sialkot,2
+182,021,Sukkhar,3
+183,022,Khairpur,3
+184,023,Gotki,3
+185,024,MirpurKhas,3
+186,025,Mithi,3
+187,026,Umer kot,3
+188,048,Dadu,3
+189,049,Hyderabad,3
+190,050,Jamshoro,3
+191,051,Larkana,3
+192,052,Nowshero Feroze,3
+193,053,Sanghar,3
+194,054,Tando Allah Yar,3
+195,055,Tando Muhd Khan,3
+196,056,Thatta,3
+197,057,Shikarpur,3
+198,058,Kashmore,3
+199,097,Badin,3
+200,098,Jacobabad,3
+201,099,Karachi,3
+202,100,Matiari,3
+203,101,Shaheed Benazirabad,3
+204,102,Qambar Shahdadkot,3
+205,016,Quetta,4
+206,017,BarKhan,4
+207,018,Kallat,4
+208,019,Jaffar abad,4
+209,020,Chaghi,4
+210,059,Ziarat,4
+211,060,Ketch,4
+212,061,Nushki,4
+213,062,Khuzdar,4
+214,063,Qilla Abdullah,4
+215,064,Qilla Saifullah,4
+216,065,Kharan,4
+217,066,Musa Khel,4
+218,067,Kohlu,4
+219,068,Pashin,4
+220,069,Zhob,4
+221,070,Sherani,4
+222,071,Mastong,4
+223,103,Awaran,4
+224,104,Bolan,4
+225,105,Dera Bugti,4
+226,106,Gwadar,4
+227,107,Harnai,4
+228,108,Jhal Magsi,4
+229,109,Lasbela,4
+230,110,Loralai,4
+231,111,Nasirabad,4
+232,112,Panjgur,4
+233,113,Sibi,4
+234,114,Washuk,4
+235,027,Peshawar,5
+236,028,Charsadaha,5
+237,029,Swabi,5
+238,030,Abbotabad,5
+239,031,Mansehra,5
+240,072,Bannu,5
+241,073,Batagram,5
+242,074,D.I.Khan,5
+243,075,Haripur,5
+244,076,Karak,5
+245,077,Malakand,5
+246,079,Swat,5
+247,080,Tank,5
+248,081,Upper Dir,5
+249,087,Mardan,5
+250,115,Buner,5
+251,116,Chitral,5
+252,117,Hangu,5
+253,118,Kohat,5
+254,119,Kohistan,5
+255,120,Lakki Marwat,5
+256,121,Lower Dir,5
+257,122,Nowshera,5
+258,123,Shangla,5
+259,124,Tor Ghar,5
+260,032,Gilgit,6
+261,082,Diyamer,6
+262,083,Skardu,6
+263,125,Ghanche,6
+264,126,Astore,6
+265,127,Ghizer,6
+266,128,Hunza-Nagar,6
+267,014,Muzafarabad,7
+268,015,Bagh,7
+269,084,Mirpur,7
+270,085,Neelum,7
+271,129,Hattian,7
+272,130,Bhimber,7
+273,131,Kotli,7
+274,132,Poonch,7
+275,133,Haveli,7
+276,134,Sudhnati,7
+277,033,ICT,8
+278,086,Khyber Agency,9
+279,088,TRIBAL AREA ADJ D.I.KHAN,9
+280,135,FATA-Peshawar,9
+281,136,FATA-Bannu,9
+282,137,FATA-Tank,9
+283,138,Bajaur,9
+284,139,Kurram,9
+285,140,Mohmand,9
+286,141,North Waziristan,9
+287,142,Orakzai,9
+288,143,South Waziristan,9
+289,144,FATA-Kohat,9
+290,145,FATA-Lakki Marwat,9
+291,149,Hyderabad - Urban,11
+292,146,Lahore - Urban,11
+293,148,Peshawar - Urban,11
+294,150,Quetta - Urban,11
+295,147,Karachi - Urban,11
+296,151,Multan - Urban,11
