@@ -6,7 +6,7 @@ CREATE TABLE districtpopulation (
 	population int(10),
 	PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-LOAD DATA INFILE 'D:\\Dropbox\\Jugnoo Local\\ASER Raw\\districtpopulation.csv' INTO table districtpopulation
+LOAD DATA INFILE 'districtpopulation.csv' INTO table districtpopulation
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 (

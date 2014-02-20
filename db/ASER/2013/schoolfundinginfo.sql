@@ -12,7 +12,7 @@ CREATE TABLE schoolfundinginfo (
 	`emiscode` varchar(25),
 	PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-LOAD DATA INFILE 'D:\\Dropbox\\Jugnoo Local\\ASER Raw\\schoolfundinginfo.csv' INTO table schoolfundinginfo
+LOAD DATA INFILE 'schoolfundinginfo.csv' INTO table schoolfundinginfo
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 (

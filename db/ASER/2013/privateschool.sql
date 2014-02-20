@@ -74,7 +74,7 @@ CREATE TABLE privateschool (
 	thisyearfundreceivedfrom varchar(50),
 	PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-LOAD DATA INFILE 'D:\\Dropbox\\Jugnoo Local\\ASER Raw\\privateschool.csv' INTO table privateschool
+LOAD DATA INFILE 'privateschool.csv' INTO table privateschool
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 (

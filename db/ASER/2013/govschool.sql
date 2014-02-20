@@ -94,7 +94,7 @@ CREATE TABLE govschool (
 	isfundspentonuniforms tinyint unsigned,
 	PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-LOAD DATA INFILE 'D:\\Dropbox\\Jugnoo Local\\ASER Raw\\govschool.csv' INTO table govschool
+LOAD DATA INFILE 'govschool.csv' INTO table govschool
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 (

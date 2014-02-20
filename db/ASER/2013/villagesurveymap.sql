@@ -14,7 +14,7 @@ CREATE TABLE villagemapsurvey (
   `iscarpetedroad` tinyint UNSIGNED,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-LOAD DATA INFILE 'D:\\Dropbox\\Jugnoo Local\\ASER Raw\\villagemapsurvey.csv' INTO table villagemapsurvey
+LOAD DATA INFILE 'villagemapsurvey.csv' INTO table villagemapsurvey
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 (

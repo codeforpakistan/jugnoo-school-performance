@@ -10,7 +10,7 @@ CREATE TABLE householdparents (
  `fathergraduated` varchar(10),
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-LOAD DATA INFILE 'D:\\Dropbox\\Jugnoo Local\\ASER Raw\\householdparents.csv' INTO table householdparents
+LOAD DATA INFILE 'householdparents.csv' INTO table householdparents
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 (

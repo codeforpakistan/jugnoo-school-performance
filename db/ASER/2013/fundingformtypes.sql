@@ -4,7 +4,7 @@ CREATE TABLE fundingformtypes (
 	`name` varchar(50) NOT NULL,
 	PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-LOAD DATA INFILE 'D:\\Dropbox\\Jugnoo Local\\ASER Raw\\fundingformtypes.csv' INTO table fundingformtypes
+LOAD DATA INFILE 'fundingformtypes.csv' INTO table fundingformtypes
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 (

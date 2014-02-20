@@ -34,7 +34,7 @@ CREATE TABLE householdchild (
 	`childnotavailable` tinyint UNSIGNED ,
 	PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-LOAD DATA INFILE 'D:\\Dropbox\\Jugnoo Local\\ASER Raw\\householdchild.csv' INTO table householdchild
+LOAD DATA INFILE 'householdchild.csv' INTO table householdchild
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 (
